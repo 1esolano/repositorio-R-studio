@@ -22,4 +22,13 @@ predict(lm_autos,pred_precio)
 
 
 
+#ggplot2
+
+
+ggplot(Base_Auto,aes(x= Año_Auto )) + geom_bar()
+
+ggplot(Base_Auto,aes(x=Año_Auto,y=Precio_Auto))+geom_point()
+
+ggplot(Base_Cliente,aes(x=Credito_Cliente))+geom_bar()
+
 
